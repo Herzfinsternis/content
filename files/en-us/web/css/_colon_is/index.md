@@ -179,6 +179,8 @@ h1 {
 }
 ```
 
+A similar effect could be achieved with nested CSS rules and the [& nesting selector](/en-US/docs/Web/CSS/Nesting_selector) in recent browsers if you need to simplify section selectors.
+
 ### :is() does not select pseudo-elements
 
 The `:is()` pseudo-class does not match pseudo-elements. So rather than this:
@@ -206,6 +208,8 @@ some-element::after {
 }
 ```
 
+A similar effect could be achieved with nested CSS rules and the [& nesting selector](/en-US/docs/Web/CSS/Nesting_selector) in recent browsers.
+
 ## Syntax
 
 ```css-nolint
@@ -227,3 +231,4 @@ some-element::after {
 - {{CSSxRef(":where", ":where()")}} - Like `:is()`, but with 0 [specificity](/en-US/docs/Web/CSS/Specificity).
 - [Selector list](/en-US/docs/Web/CSS/Selector_list)
 - [Web components](/en-US/docs/Web/API/Web_components)
+- [& nesting selector](/en-US/docs/Web/CSS/Nesting_selector)
